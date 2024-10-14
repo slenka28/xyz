@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<DashboardComponent/>} />
         <Route path="/ship" element={<ShipmentDashboardComponent/>} />
         <Route path="/login" element={<AuthForms/>} />
-        <Route path="/truck-info" element={<TruckDashboard/>} />
+        <Route path="https://xyz-sooty.vercel.app//truck-info" element={<TruckDashboard/>} />
         <Route path="/driver" element={<DriverManagementComponent/>} />
         <Route path="/client" element={<EnhancedClientManagement/>} />
         <Route path="/billing" element={<EnhancedBillingPageComponent/>} />
